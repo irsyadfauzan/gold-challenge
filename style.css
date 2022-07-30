@@ -1,0 +1,195 @@
+body {
+    background-color:white;
+    margin-right:136px;
+    margin-left:136px;
+}
+
+.header {
+    height:504px;
+    background-color: #F1F3FF;
+}
+
+.headertext {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:black;
+}
+
+h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color:black;
+}
+h2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;  
+    color:black;
+}
+
+h3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+li {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.img_car {
+    position: absolute;
+    width: 704px;
+    height: 407px;
+    left: 736px;
+    top: 97px;
+}
+
+.img_girl {
+    position: absolute;
+    width: 459px;
+    height: 428px;
+    left: 206px;
+    top: 604px;
+}
+
+.headertext {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 113px;
+}
+
+.col-sm-1 {
+    width:fit-content;
+    padding-right: calc(var(--bs-gutter-x) * .7);
+    padding-left: calc(var(--bs-gutter-x) * .7);
+}
+
+.bluebox {
+    height:34px;
+    width:100px;
+    background-color:#0D28A6;
+}
+
+.headercon {
+    max-width:none
+}
+
+@media screen and (max-width: 740px) {
+    body {
+        margin-right:15px;
+        margin-left:15px;
+    }
+    .headertext {
+        margin-right:0px;
+    }
+}
+
+.headbackground {
+    background-color:#F1F3FF;
+    height:31rem;
+    top:0;
+    right:0;
+    left:0;
+    right:0;
+    position:absolute;
+    z-index:-1;
+}
+
+.btn-primary {
+    background-color:#5CB85F;
+    border-radius: 2px;
+    font-family: 'Arial';
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    width: 140px;
+    height: 36px;
+    border-color:transparent;
+    padding:8px;
+}
+
+.btn-primary:hover {
+    background-color: green;
+}
+
+.banner {
+    height:31rem;
+}
+
+.hero {
+    height:28rem;
+}
+
+.mobil {
+    position:absolute;
+    right:0;
+    top:90px;
+}
+
+ul {
+    list-style:none;
+}
+
+li {
+    list-style-image: url(./assets/image/icon_checklist.png);
+    padding: 0em 0 .8em 14px;
+}
+
+.listo {
+    position:relative;
+    top:-6px;
+}
+
+.card-body {
+    padding-right:12px;
+    padding-left:12px;
+    padding-top:24px;
+}
+
+.wrapper {
+    display:flex;
+    overflow-x:auto;
+    margin-left:-136px;
+    margin-right:-136px;
+    gap:32px;
+}
+
+.wrapper::-webkit-scrollbar{
+    width:0;
+}
+
+.wrapper .item {
+    min-width: 619px;
+    height:270px;
+    text-align:center;
+    background-color:#F1F3FF;
+    border-radius:8px;
+}
