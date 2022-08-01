@@ -245,3 +245,7 @@ li {
     line-height: 20px;
     text-align:left;
 }
+
+.socialbutton {
+    padding-right:12px;
+}
