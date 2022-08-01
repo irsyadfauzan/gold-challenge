@@ -174,6 +174,15 @@ li {
     padding-top:24px;
 }
 
+.card-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align:left;
+}
+
 .wrapper {
     display:flex;
     overflow-x:auto;
@@ -192,4 +201,47 @@ li {
     text-align:center;
     background-color:#F1F3FF;
     border-radius:8px;
+}
+
+.itemitem {
+    min-width: 619px;
+    height:270px;
+    text-align:center;
+    margin:0px;
+}
+
+.card-img {
+    width: 80px;
+    height: 80px;
+}
+
+.text-card2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:black;
+}
+
+.bluebanner {
+    height: 326px;
+    background-color:#0D28A6;
+    border-radius: 13px;
+    padding-top:64px;
+}
+
+.dropdown-toggle {
+    width:668px;
+    height:56px;
+    border-radius:4px;
+    background-color:white;
+    color:black;
+    border-color:#D4D4D4;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align:left;
 }
