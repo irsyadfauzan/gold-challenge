@@ -4,7 +4,7 @@ body {
     margin-left:136px;
 }
 
-.header {
+.header { 
     height:504px;
     background-color: #F1F3FF;
 }
@@ -152,6 +152,7 @@ li {
     position:absolute;
     right:0;
     top:90px;
+    z-index:-1;
 }
 
 ul {
@@ -231,7 +232,7 @@ li {
     padding-top:64px;
 }
 
-.dropdown-toggle {
+.faq {
     width:668px;
     height:56px;
     border-radius:4px;
@@ -248,4 +249,71 @@ li {
 
 .socialbutton {
     padding-right:12px;
+}
+
+.searchdropdown {
+    border-radius:2px;
+    background-color:white;
+    color:black;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #D0D0D0;
+    text-align:left;
+    padding : 9px 12px;
+    width:100%;
+}
+
+.disewa {
+    font-weight:700;
+}
+
+.namamobil {
+    font-family:'Rubik';
+}
+
+.btn-primary-search {
+    background-color:#5CB85F;
+    border-radius: 2px;
+    font-family: 'Arial';
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    border-color:transparent;
+    align-self:flex-end;
+    color:white;
+    width:92px;
+    height:36px;
+    border:none;
+    padding: 8px 12px;
+}
+
+.flex {
+    display:flex;
+}
+
+.labelsearch {
+    text-align: left;
+    float:left;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color:#3C3C3C;
+}
+
+.searchbar {
+    max-width: 1047px;
+    height:106px;
+    border-radius:8px;
+    margin-top:-40px;
+    background-color:white;
+}
+
+.bringfront {
 }
